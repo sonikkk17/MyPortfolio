@@ -1,0 +1,149 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing:border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navigation ul li {
+    color: #8D8741;
+    list-style-type: none;
+    display:inline-block;
+    padding: 10px 50px;
+
+}
+.navigation ul li a{
+    color: #8D8741;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.navigation ul li a:hover{
+    color:rgb(70, 13, 13);
+    transition: .4s;
+}
+.about img{
+    height:auto;
+    width:60vh;
+}
+.text{
+    display:inline-block;
+    padding:10px 10px 10px 60px;
+}
+.text ul{
+    display:inline-block; 
+}
+h2{
+    font-size: 30px;
+}
+.headerContainer{
+    width:100%;
+    height:25vh;
+    padding: 70px 30px 20px;
+    display: flex;
+    align-items: center;
+    background-color:#DAAD86;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+ }
+ .text ul li {
+    font-size: 20px;
+    padding: 5px 20px;
+
+}
+main{
+    background-color:#DAAD86;
+ }
+ .portfolio{
+    width:100%;
+    padding: 140px 60px 40px;
+ }
+ .title{
+    padding-left: 150px;
+ }
+ .box{
+    display:flex; 
+    padding-top: 80px;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+ }
+ .card{
+    height:365px;
+    width:335px;
+    padding:20px 35px;
+    background-color: azure;
+    border-radius: 20px;
+    margin:15px;
+    position: relative;
+    text-align: center;
+ }
+
+.container{
+    width:100%;
+    height: 90vh;
+    padding: 70px 30px 20px;
+ }
+.contact{
+    position:absolute;
+    top:120%;
+    left:8%;
+}
+.contact form{
+width:410px;
+max-width: 100%;
+position: relative;
+padding: 30px 30px 30px 50px;
+}
+.contact form input:first-child{
+    display:inline-block;
+    width:100%;
+    padding:30px 200px 15px 15px;
+    border:2px solid #8D8741;
+    border-radius: 20px;;
+    }
+    .contact form input:last-child{
+        position:absolute;
+        display: inline-block;
+        padding:20px 70px;
+        margin:5px 30px 20px;
+        border:3px solid black;
+        }
+
+footer{
+    background-color:#DAAD86;
+}
+
+.footerContainer{
+width:100%;
+height: 30vh;
+padding: 420px 20px;
+}
+
+.socialMedias{
+    display:flex;
+    justify-content: center;
+    padding: 300px 5px 10px 10px;
+}
+
+.socialMedias a{
+    padding:10px;
+    background-color: #8D8741;
+    margin:10px;
+    border-radius: 50%;
+}
+
+.socialMedias a i{
+    font-size: 2em;
+    color:black;
+    opacity: 0.9;
+}
+.bottom{
+    padding: 10px 0px 0px 0px; 
+}
